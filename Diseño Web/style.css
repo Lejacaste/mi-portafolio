@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    border: 5px; /* Establece la fuente y el color del texto */
+
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(142, 194, 177);
+    color: white;
+    padding: 20px; /* Establece el color de fondo, el color del texto y el padding para el título principal */
+}
+
+nav ul {
+    background-color: gray;
+    width: 100%;
+    text-align: center; /* Establece el color de fondo del menú de navegación, el ancho y la alineación del texto */
+}
+
+nav li {
+    display: inline-flex; 
+} /* Utiliza display: inline-flex para que los elementos de la lista se muestren en línea y se alineen correctamente */
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 270px; /* Establece el color del texto de los enlaces, elimina el subrayado y agrega padding */
+}
+nav li:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(142, 194, 177); /* Cambia el color de fondo y el color del texto al pasar el mouse sobre los elementos del menú */
+}
+
+img {
+    width: 25%;
+    height: auto;
+    border-radius: 50%; 
+    display: block; 
+    margin: 0 auto;  /* Establece el ancho y la altura de la imagen, redondea los bordes y centra la imagen en la página */
+}
+
+header {
+    text-align: justify;
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: rgb(142, 194, 177); 
+    color: white; 
+    border-radius: 10px;
+    border: none; 
+    transition: background-color 0.3s ease; /* Agrega una transición suave al cambiar el color de fondo del encabezado */
+}
+
+header:hover {
+    background-color: rgb(138, 78, 206); /* Cambia el color de fondo del encabezado al pasar el mouse sobre él, el color morado queda bien al hacerse la transicion */
+}
+
+    .estructura {
+    text-align: center;
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: rgb(142, 194, 177);
+    color: white; 
+    border-radius: 10px; 
+    border: none; /* Establece el estilo para la sección de estructura */
+    }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(117, 228, 126); 
+    color: white; 
+    font-size: 0.9em; 
+    border-top: 2px solid rgb(113, 171, 179); /* Establece el estilo para el pie de página, incluyendo el color de fondo, el color del texto, el tamaño de fuente y un borde superior */
+}
